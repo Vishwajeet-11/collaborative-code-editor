@@ -7,7 +7,153 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.HomePageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #bfbfbf;
+  font-family: Arial, sans-serif;
+}
+
+.FormWrapper {
+  background: #f8f8f8;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top : 0px;
+  padding-top: 0px;
+}
+
+.FormWrapper img {
+  width: 10rem;
+  margin: 0px;
+  color: white;
+  background-color:rgba(252, 252, 252, 0);
+  height: 6rem;
+  padding: 0px;
+}
+
+.mainLabel {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #383838;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: #e5e2e2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.createInfo {
+  font-size: 14px;
+  color: #2b2b2b;
+}
+
+.createInfo a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.createInfo a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #3c3c3c;
+}
+
+footer a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color:rgb(0, 0, 0);
+}
+
+
+
+/* editor page */
+.mainWrap{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color:white;
+  display: flex;
+  flex-direction:column;
+}
+
+.asideInner{
+  flex: 1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* font-weight: bold;  */
+}
+
+.userName {
+  margin-top: 10px;
+}
+
+.logo{
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logoImage {
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color:whitesmoke;
+  width: 13rem;
+}
+
+.leaveBtn {
+  margin-top: 20px;
+  background-color: red;
 }
