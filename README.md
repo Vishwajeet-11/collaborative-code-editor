@@ -22,8 +22,8 @@ A real-time collaborative code editor application built using the MERN stack wit
 
 To get a local copy up and running follow these simple steps:
 
-1. Clone the repository: `git clone https://github.com/your_username/your_repository.git`
-2. Navigate into the project directory: `cd your_repository`
+1. Clone the repository: `https://github.com/Vishwajeet-11/collaborative-code-editor.git`
+2. Navigate into the project directory: `cd code_editor`
 3. Install dependencies for both frontend and backend:
    ```bash
    cd frontend
